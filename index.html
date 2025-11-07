@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Shanu Imran - Master Tailor & Designer at Meerganj Standard Tailor. Expert in Men's Suits, Ladies Wear, Alterations & Custom Designs. Opposite RR Public School, Meerganj, Bareilly, UP 243504." />
+  <meta name="keywords" content="tailor meerganj, shanu imran, standard tailor, mens suit bareilly, ladies wear, alterations, custom design, bareilly tailoring" />
+  <meta name="author" content="Shanu Imran" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:title" content="Shanu Imran | Master Tailor - Meerganj Standard Tailor" />
+  <meta property="og:description" content="Expert tailoring services: Men's Suits, Ladies Wear, Alterations & Custom Designs. Visit us opposite RR Public School, Meerganj, Bareilly." />
+  <meta property="og:image" content="https://yourdomain.com/b.png" />
+  <meta property="og:url" content="https://yourdomain.com" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_IN" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Shanu Imran | Master Tailor - Meerganj" />
+  <meta name="twitter:description" content="Premium tailoring in Meerganj, Bareilly. Call +91 95552 63252" />
+  <meta name="twitter:image" content="https://yourdomain.com/b.png" />
+
+  <!-- Favicon (Optional) -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+  <title>Shanu Imran | Master Tailor & Designer - Meerganj, Bareilly</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Structured Data (Local Business Schema) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Meerganj Standard Tailor",
+    "alternateName": "Shanu Imran Tailoring",
+    "description": "Expert tailoring for men's suits, ladies wear, alterations, and custom designs in Meerganj, Bareilly.",
+    "owner": {
+      "@type": "Person",
+      "name": "Shanu Imran",
+      "alternateName": "Shanu"
+    },
+    "image": "https://yourdomain.com/b.png",
+    "url": "https://yourdomain.com",
+    "telephone": "+919555263252",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Opposite RR Public School",
+      "addressLocality": "Meerganj",
+      "addressRegion": "UP",
+      "postalCode": "243504",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "28.3700",
+      "longitude": "79.4300"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        "opens": "10:00",
+        "closes": "20:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Sunday",
+        "opens": "00:00",
+        "closes": "00:00",
+        "description": "By Appointment Only"
+      }
+    ],
+    "priceRange": "₹₹",
+    "sameAs": [
+      "https://wa.me/919555263252"
+    ]
+  }
+  </script>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      font-family: 'Poppins', sans-serif;
+      color: #e5e7eb;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 900px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-radius: 32px;
+      overflow: hidden;
+      box-shadow: 
+        0 25px 50px rgba(0, 0, 0, 0.3),
+        0 0 0 1px rgba(255, 255, 255, 0.1);
+      animation: floatIn 1s ease-out forwards;
+      opacity: 0;
+      transform: translateY(30px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    @keyframes floatIn {
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* HEADER */
+    .card-header {
+      position: relative;
+      padding: 40px 20px;
+      background: linear-gradient(135deg, #f59e0b 0%, #ea580c 50%, #dc2626 100%);
+      color: white;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .card-header::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: linear-gradient(45deg, transparent 30%, rgba(255,255,255,0.15) 50%, transparent 70%);
+      transform: translateX(-100%);
+      animation: shimmer 3s infinite;
+    }
+
+    @keyframes shimmer {
+      0% { transform: translateX(-100%); }
+      100% { transform: translateX(100%); }
+    }
+
+    .header-content {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .profile-photo {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 6px solid rgba(255, 255, 255, 0.3);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+      transition: all 0.4s ease;
+      cursor: pointer;
+      flex-shrink: 0;
+    }
+
+    .profile-photo:hover {
+      transform: scale(1.1) rotate(4deg);
+      border-color: #fff;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    }
+
+    .profile-photo img {
+      width: 100%;
+      height: 120%;
+      object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+
+    .profile-photo:hover img {
+      transform: scale(1.1);
+    }
+
+    .name-title h1 {
+      font-size: 2.9rem;
+      font-weight: 800;
+      margin-bottom: 4px;
+      background: linear-gradient(to right, #fff, #fde68a);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      letter-spacing: 1.2px;
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+
+    @keyframes glow {
+      from { filter: drop-shadow(0 0 8px rgba(255,255,255,0.6)); }
+      to { filter: drop-shadow(0 0 18px rgba(255,255,255,0.9)); }
+    }
+
+    .name-title .title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      opacity: 0.95;
+      margin: 5px 0;
+    }
+
+    .name-title .speciality {
+      font-size: 1.2rem;
+      font-weight: 600;
+      background: rgba(255, 255, 255, 0.2);
+      padding: 8px 18px;
+      border-radius: 50px;
+      display: inline-block;
+      backdrop-filter: blur(6px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    /* SERVICES */
+    .services {
+      padding: 30px 20px;
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .services h2 {
+      text-align: center;
+      font-size: 1.8rem;
+      color: #f59e0b;
+      margin-bottom: 20px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .services h2 i {
+      color: #fbbf24;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.25); }
+    }
+
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 16px;
+    }
+
+    .service-card {
+      background: linear-gradient(145deg, #fefce8, #fde68a);
+      padding: 18px 12px;
+      border-radius: 20px;
+      text-align: center;
+      font-weight: 600;
+      font-size: 0.95rem;
+      color: #92400e;
+      border: 1px solid #fde68a;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .service-card p {
+      margin-top: 6px;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+
+    .service-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: linear-gradient(145deg, rgba(255,255,255,0.4), transparent);
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .service-card:hover {
+      transform: translateY(-8px) scale(1.03);
+      box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+      border-color: #f59e0b;
+    }
+
+    .service-card:hover::before {
+      opacity: 1;
+    }
+
+    /* CONTACT */
+    .contact {
+      background: rgba(249, 250, 251, 0.1);
+      backdrop-filter: blur(12px);
+      padding: 25px;
+      margin: 20px;
+      border-radius: 24px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .contact h3 {
+      text-align: center;
+      font-size: 1.5rem;
+      color: #e5e7eb;
+      margin-bottom: 18px;
+      font-weight: 600;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      margin-bottom: 16px;
+      color: #d1d5db;
+      transition: transform 0.2s;
+    }
+
+    .contact-item:hover {
+      transform: translateX(6px);
+    }
+
+    .contact-item .icon {
+      width: 44px;
+      height: 44px;
+      background: rgba(251, 146, 60, 0.2);
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+      color: #fb923c;
+      flex-shrink: 0;
+    }
+
+    .contact-item p,
+    .contact-item a {
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    .contact-item a {
+      color: #fbbf24;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.2s;
+    }
+
+    .contact-item a:hover {
+      color: #fcd34d;
+    }
+
+    /* ACTIONS */
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      padding: 0 20px 25px;
+      justify-content: center;
+    }
+
+    .btn {
+      flex: 1;
+      min-width: 130px;
+      padding: 15px 20px;
+      border-radius: 16px;
+      font-weight: 600;
+      font-size: 1rem;
+      color: white;
+      text-align: center;
+      cursor: pointer;
+      border: none;
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+    }
+
+    .btn::before {
+      content: '';
+      position: absolute;
+      top: 0; left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.25), transparent);
+      transition: left 0.6s;
+    }
+
+    .btn:hover::before {
+      left: 100%;
+    }
+
+    .btn:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+    }
+
+    .btn.call { background: linear-gradient(135deg, #16a34a, #15803d); }
+    .btn.whatsapp { background: linear-gradient(135deg, #10b981, #059669); }
+    .btn.directions { background: linear-gradient(135deg, #2563eb, #1d4ed8); }
+
+    /* FOOTER TAGLINE */
+    .footer-tagline {
+      text-align: center;
+      margin: 20px;
+      padding: 14px 28px;
+      background: linear-gradient(135deg, #f59e0b, #ea580c);
+      color: white;
+      font-weight: 700;
+      border-radius: 50px;
+      font-size: 1.1rem;
+      box-shadow: 0 8px 20px rgba(245, 158, 11, 0.3);
+      animation: bounce 2.5s infinite;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-6px); }
+    }
+
+    .bottom-info {
+      text-align: center;
+      color: #9ca3af;
+      font-size: 0.85rem;
+      margin-top: 15px;
+      padding-bottom: 10px;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      .header-content {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .profile-photo {
+        width: 230px;
+        height: 230px;
+      }
+
+      .name-title h1 {
+        font-size: 2.5rem;
+      }
+
+      .name-title .title {
+        font-size: 1.3rem;
+      }
+
+      .service-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .actions {
+        flex-direction: column;
+      }
+
+      .contact-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .contact-item .icon {
+        width: 50px;
+        height: 50px;
+        font-size: 1.6rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .card-header { padding: 30px 15px; }
+      .name-title h1 { font-size: 1.9rem; }
+      .profile-photo { width: 210px; height: 210px; }
+      .btn { font-size: 0.9rem; padding: 10px; }
+      .service-card { font-size: 0.85rem; padding: 14px 8px; }
+      .footer-tagline { font-size: 1rem; padding: 12px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="card">
+
+      <!-- HEADER -->
+      <div class="card-header">
+        <div class="header-content">
+          <div class="profile-photo">
+            <img src="shanu-profile.png" alt="Shanu Imran" onerror="this.src='https://via.placeholder.com/300/FFA500/FFFFFF?text=SI'">
+          </div>
+          <div class="name-title">
+            <h1>Shanu Imran</h1>
+            <div class="title">Master Tailor & Designer</div>
+            <div class="speciality">Standard Tailor</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SERVICES -->
+      <div class="services">
+        <h2><i class="fas fa-scissors"></i> Our Specialties</h2>
+        <div class="service-grid">
+          <div class="service-card">👔<strong>Men's Suits</strong><p>Perfect Fit Guaranteed</p></div>
+          <div class="service-card">👗<strong>Ladies Wear</strong><p>Stylish & Elegant</p></div>
+          <div class="service-card">✂️<strong>Alterations</strong><p>Any Size, Any Style</p></div>
+          <div class="service-card">✨<strong>Custom Design</strong><p>Your Vision, Our Craft</p></div>
+        </div>
+      </div>
+
+      <!-- CONTACT -->
+      <div class="contact">
+        <h3>Contact Details</h3>
+        <div class="contact-item">
+          <div class="icon"><i class="fas fa-phone"></i></div>
+          <div>
+            <p>Phone Number</p>
+            <a href="tel:+919555263252">+91 95552 63252</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div>
+            <p>Shop Address</p>
+            <p>Opposite RR Public School, Meerganj, Bareilly, Uttar Pradesh</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><i class="fas fa-clock"></i></div>
+          <div>
+            <p>Business Hours</p>
+            <p>Mon - Sat: 10:00 AM - 8:00 PM<br>Sunday: By Appointment</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ACTION BUTTONS -->
+      <div class="actions">
+        <button id="callBtn" class="btn call"><i class="fas fa-phone"></i> Call Now</button>
+        <button id="whatsappBtn" class="btn whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</button>
+        <button id="mapBtn" class="btn directions"><i class="fas fa-directions"></i> Get Directions</button>
+      </div>
+
+      <!-- FOOTER TAGLINE -->
+      <div class="footer-tagline">
+        Crafting Elegance, One Stitch at a Time
+      </div>
+    </div>
+
+    <div class="bottom-info">
+      Premium Tailoring Services | Ladies & Gents All Designs
+    </div>
+  </div>
+
+  <script>
+    // Button interactions
+    document.getElementById('callBtn').addEventListener('click', () => {
+      window.location.href = 'tel:+919555263252';
+    });
+
+    document.getElementById('whatsappBtn').addEventListener('click', () => {
+      window.open('https://wa.me/919555263252', '_blank');
+    });
+
+    document.getElementById('mapBtn').addEventListener('click', () => {
+      window.open('https://maps.google.com/?q=RR+Public+School+Meerganj+Bareilly+Uttar+Pradesh', '_blank');
+    });
+
+    // Optional: Service card click
+    document.querySelectorAll('.service-card').forEach(card => {
+      card.addEventListener('click', () => {
+        const service = card.querySelector('strong').innerText;
+        alert(`Interested in ${service}? Contact us now!`);
+      });
+    });
+  </script>
+
+</body>
+</html>
